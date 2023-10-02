@@ -3,14 +3,25 @@
   <head>
     <title>YouTube.com Clone</title>
     <style>
+
+      .search-bar {
+        display: block;
+      }
+
       .thumbnail {
         width: 300px;
         display: block;
       }
-      
-      .video-author,
-      .video-stats {
+
+      .video-title {
+        width: 290px;
+      }
+
+      .video-preview {
+        width: 300px;
         display: inline-block;
+        margin-right: 15px;
+        vertical-align: top;
       }
 
     </style>
@@ -20,7 +31,8 @@
 
     <input class="search-bar" type="text" placeholder="Search">
 
-    <img class="thumbnail" src="/thumbnails/thumbnail-1.webp" alt="video-1">
+  <div class="video-preview">
+    <img class="thumbnail" src="./thumbnails/thumbnail-1.webp" alt="video-1">
     <p class="video-title">
       Talking Tech and AI with Google CEO Sundar Pichai!
     </p>
@@ -30,6 +42,20 @@
     <p class="video-stats">
       3.4M views &#183; 6 months ago
     </p>
+  </div>
+
+  <div class="video-preview">
+    <img class="thumbnail" src="./thumbnails/thumbnail-2.webp" alt="video-2">
+    <p class="video-title">
+      Try Not To Laugh Challenge #9
+    </p>
+    <p class="video-author">
+      Markiplier
+    </p>
+    <p class="video-stats">
+      19M views &#183; 4 years ago
+    </p>
+  </div>
 
   </body>
 </html>
