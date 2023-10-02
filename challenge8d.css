@@ -1,0 +1,44 @@
+.first-one {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 110px;
+  border-radius: 8px;
+  border: 1px solid rgba(96,96,96,0.25);
+}
+
+.first-two {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 110px;
+  border-radius: 8px;
+  border: 1px solid rgba(96,96,96,0.25);
+
+}
+
+.email {
+  margin-top: 10px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 242px;
+  border-radius: 8px;
+  border: 1px solid rgba(96,96,96,0.25);
+
+}
+
+.sign {
+  background-color: #3A75EA;
+  color: white;
+  font-weight: bold;
+  width: 242px;
+  border-radius: 8px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  cursor: pointer;
+}
