@@ -1,0 +1,30 @@
+.container {
+  font-family: Arial;
+  font-size: 20px;
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 6px;
+
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.number {
+  background-color: rgb(68,108,233);
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+}
