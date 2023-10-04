@@ -23,12 +23,21 @@
 
 .hamburger-menu {
   height: 24px;
-  margin-left: 24px;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 25px;
+  padding: 4px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.hamburger-menu:hover {
+  background-color: rgb(235,235,235);
 }
 
 .youtube-logo {
   height: 20px;
+  cursor: pointer;
 }
 
 .middle-section {
@@ -169,4 +178,5 @@
 .current-user-picture {
   height: 32px;
   border-radius: 16px;
+  cursor: pointer;
 }

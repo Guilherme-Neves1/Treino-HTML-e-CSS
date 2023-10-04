@@ -16,6 +16,7 @@
   flex-direction: column;
   height: 74px;
   cursor: pointer;
+  transition: background-color 0.15s;
 }
 
 .sidebar-link img {
